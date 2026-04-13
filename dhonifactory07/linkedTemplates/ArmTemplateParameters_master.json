@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dhonifactory07"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"gen2Storage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://thalastg07.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "pravisqlserver06.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "pravidb06"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "praviadmin"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://github.com/datablist/sample-csv-files/archive/refs/heads/main.zip"
+		},
+		"gen2Storage1_properties_typeProperties_url": {
+			"value": "https://thalastg07.dfs.core.windows.net/"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/a2f09d71-7ac5-44aa-80ee-4843b223f2bd/resourceGroups/MSDhoni07/providers/Microsoft.Storage/storageAccounts/thalastg07"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
