@@ -1,0 +1,23 @@
+{
+	"name": "genzipdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "gen2Storage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "employee.zip",
+				"fileSystem": "output"
+			},
+			"compression": {
+				"type": "ZipDeflate",
+				"level": "Optimal"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

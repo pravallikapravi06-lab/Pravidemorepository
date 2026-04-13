@@ -1,0 +1,24 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "databricks",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/destination/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/a2f09d71-7ac5-44aa-80ee-4843b223f2bd/resourceGroups/MSDhoni07/providers/Microsoft.Storage/storageAccounts/thalastg07",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

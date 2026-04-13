@@ -1,0 +1,9 @@
+{
+	"name": "dhonifactory07",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c2a9faae-7cbd-4e66-9d13-f7cba848a857",
+		"tenantId": "71cda416-aadf-403e-b160-a12bb06d099c"
+	}
+}

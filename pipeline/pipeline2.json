@@ -1,0 +1,35 @@
+{
+	"name": "pipeline2",
+	"properties": {
+		"activities": [
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "employee1",
+					"value": {
+						"value": "@int('123')",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"variables": {
+			"employee": {
+				"type": "String"
+			},
+			"employee1": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2026-03-27T11:26:55Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
